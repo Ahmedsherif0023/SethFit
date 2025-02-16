@@ -7,9 +7,9 @@ const Header = () => {
       
       <nav className="navbar">
             <a href="/">Home</a>
-            <a href="/">Workout</a>
-            <a href="/">Measurements</a>
-            <a href="/">Contact</a>
+            <a href="/workout">Workout</a>
+            <a href="/measurements">Measurements</a>
+            <a href="/contact">Contact</a>
       </nav>
     
     </div>
