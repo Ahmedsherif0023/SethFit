@@ -3,6 +3,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import imgg from "../../assets/bodybuilder.png";
 import Counter from "../../components/Counter/Counter";
+import Banner from "../../components/Banner/Banner";
 const Workout = () => {
   return (
     <div>

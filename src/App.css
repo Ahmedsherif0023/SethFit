@@ -84,7 +84,7 @@ a {
   justify-content: space-between;
   flex-direction: row;
   z-index: 100;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -154,7 +154,7 @@ a {
 
 .txtt{
   font-family: "Irish Grover", "Arial Narrow", Arial, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -320,6 +320,14 @@ a {
   margin: 20px;
   padding: 30px;
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Banner_Counter_btns{
+  flex-direction: row;
 }
 
 .bbimg{
@@ -360,4 +368,95 @@ a {
   /* transform: scale(1.15); */
   transition: 0.8s;
   border: 2px #f3db07 solid;
+}
+
+.save_delete{
+
+  padding: 10px 10px;
+}
+
+
+.save_delete .zozo{
+  margin-left: 40px;
+  scale:1.2;
+}
+.save_delete .bobo{
+  scale: 1.2;
+}
+
+/*Banner in the workout page*/
+.banner {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  /* border: 2px #f3db07 solid; */
+  cursor: pointer;
+  border-radius: 30px;
+  width: 300px;
+}
+.banner span {
+  color: black;
+}
+
+.banner-input {
+  font-size: 24px;
+  padding: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+  color: black; /* Default color */
+}
+
+.banner-input:focus {
+  color: black; /* Change color when focused */
+}
+
+.banner:hover{
+  background-color: #3c4043;
+  border: 2px #f3db07 solid;
+  transform: scale(1.15);
+  transition: 0.8s;
+}
+.banner-input {
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.AddBannerBtn {
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3c4043;
+  padding: 8px;
+  border-radius: 18px;
+  height: 43px;
+  margin: 20px;
+  align-items: center;
+  appearance: none;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Irish Grover", "Arial Narrow", Arial, sans-serif;
+}
+
+.AddBannerBtn:hover {
+  background: #3c4043;
+  color: #f3db07;
+  transform: translateY(-2px);
+  transition: 0.2s;
+  transform: scale(1.15);
+  transition: 0.8s;
+  border: 2px #f3db07 solid;
+}
+
+
+.txtt {
+  scale: 0.85;
 }
